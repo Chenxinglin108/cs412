@@ -1,0 +1,36 @@
+
+# Dependency directories
+/node_modules/
+
+# Build outputs
+/dist/
+/tmp/
+/out-tsc/
+
+# IDE files and folders
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# log files and directories
+/logs
+*.log
+npm-debug.log*
+
+# Environment files
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
