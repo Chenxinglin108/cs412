@@ -1,0 +1,8 @@
+
+<div *ngIf="dataToDisplay">
+  <div *ngFor="let item of dataToDisplay">
+    <h2>{{{ item.name }}}</h2>
+    <p>{{{ item.detail }}}</p>
+  </div>
+</div>
+<button (click)="fetchData()">Fetch Data</button>
